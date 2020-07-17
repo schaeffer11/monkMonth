@@ -1,0 +1,111 @@
+.home {
+	padding: 0px 0px 75px 0px;
+  height: calc(100% - 120px);
+  overflow-y: auto;
+  background: #FCFCFC;
+
+  .placeholder {
+    height: 150px;
+    background: grey;
+  }
+
+  .outer-container {
+    padding: 0px 150px 0px 150px;
+
+    .header {
+      font-size: 20px;
+      padding-bottom: 3px;
+      padding-top: 45px;
+      font-weight: lighter;
+    }
+
+
+    .product-row {
+      display: flex;
+      padding-left: 25px;
+      border-bottom: solid 2px #A7A9AE;
+      padding-top: 15px;
+      padding-bottom: 15px;
+
+      .hex {
+        .hex-top {
+            width: 0;
+            border-left: 26px solid transparent;
+            border-right: 26px solid transparent;
+        }
+
+        .hex-middle {
+            width: 52px;
+            height: 30px;
+            text-align: center;
+            line-height: 30px;
+            font-weight: bold;
+            color: white;
+            font-size: 19px;
+            letter-spacing: -0.36px;
+        }
+
+        .hex-bot {
+          width: 0;
+            border-left: 26px solid transparent;
+            border-right: 26px solid transparent;
+        }
+      }
+
+      .product-info {
+        line-height: 18px;
+        height: 50px;
+        padding-left: 20px;
+        margin-top: 11px;
+        
+
+        .product-name {
+          color: #0076C0;  
+          font-size: 18px;
+
+          .product-name-registed {
+          }
+
+          .product-name-span {
+            padding-left: 5px;
+          }
+        }
+
+        .desc {
+          font-size: 14px;
+          font-weight: lighter;
+          padding-top: 3px;
+        }
+      }
+
+      .availability {
+        margin-left: auto;
+        height: 10px;
+        color: #646464;
+        padding-right: 15px;
+        font-weight: lighter;
+        font-size: 18px;
+        opacity: .5;
+        line-height: 72px;
+      }
+
+      .launch {
+        margin-left: auto;
+        padding-right: 15px;
+        
+        .outer-nav-link {
+          line-height: 32px;
+          width: 72px;
+          display: block;
+          background: #0076C0;
+          color: white;
+          text-align: center;
+          border-radius: 4px;
+          font-weight: bold;
+          margin-top: 15px;
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+$actionButtonBackgroundColor: #4b4d53;
+
+.MuiButton-root {
+  .MuiButton-label {
+    font-size: 1rem;
+  }
+
+  &.MuiButton-containedPrimary {
+    background-color: $product-color;
+
+    &:hover {
+      background-color: $secondary-color;
+    }
+  }
+
+  &.attempting-validation {
+    background-color: lightgrey;
+    color: lightgrey;
+
+    &:hover{
+      background-color: lightgrey;
+      color: lightgrey;
+      cursor: default;
+    }
+  }
+}
+
+.MuiIconButton-root {
+  &.card-icon-btn {
+    background: $actionButtonBackgroundColor;
+    margin-right: 10px;
+    padding: 0;
+  }
+}
+
+.back-btn {
+  display: flex;
+  align-items: center;
+  margin-right: 6px;
+  color: #646464;
+  font-size: 14px;
+  font-weight: 700;
+
+  &__icon {
+      border-radius: 50%;
+      fill: #fff !important;
+      background-color: #646464;
+      height: 20px !important;
+      width: 20px !important;
+      margin-right: 6px;
+  }
+}

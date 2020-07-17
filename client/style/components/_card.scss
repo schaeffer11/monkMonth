@@ -1,0 +1,35 @@
+.card {
+  display: flex;
+  flex-flow: column;
+  width: calc(100% - 16px);
+  height: calc(100% - 16px); 
+  max-height: inherit;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+  border: 1px solid #eaf0f4;
+  background-color: #ffffff;
+  color: #4d4f5c;
+  margin: auto;
+
+  .title {
+    line-height: 40px;
+    font-size: 18px;
+    line-height: 13px;
+    font-weight: 400;
+    padding: 20px;
+  }
+
+  .subtitle {
+    padding: 8px 0 0;
+  }
+
+  .child {
+    flex: 1;
+    /* overflow-y: auto; */
+    width: 100% ;
+    /*height: calc(100% - 40px);*/
+    /* padding: 0 20px 20px; */
+    padding: 0 20px; 
+    max-height: calc(100% - 60px);
+  }
+}
+

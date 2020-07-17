@@ -1,0 +1,58 @@
+.comments {
+    .view-all {
+        float: right;
+        color: $product-color;
+    }
+
+    &-avatar {
+        /*margin-top: 18px;*/
+    }
+
+    &-author {
+        font-size: 1rem;
+        font-weight: 600;
+        letter-spacing: .02rem;
+    }
+
+    &-time {
+        margin-left: 10px;
+    }
+
+    &-text {
+        margin-top: 10px;
+    }
+}
+
+.comments-container {
+    .form {
+        margin: 10px 0 20px;
+        padding: 0 16px;
+    }
+
+    .search-form {
+        margin: 10px 0 10px;
+        padding: 0 16px;
+    }
+
+    .pagination {
+        float: right;
+        padding-right: 16px;
+        margin-left: 20px;
+    }
+
+    .progress {
+        display: block;
+        margin: 20px auto;
+    }
+
+    .total-text {
+        margin: 20px 0;
+        display: inline-block;
+        line-height: 31px;
+    }
+
+    .comment-notice {
+        margin: 10px 0 20px;
+        padding: 0 16px;
+    }
+}

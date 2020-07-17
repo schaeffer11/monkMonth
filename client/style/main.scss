@@ -1,0 +1,17 @@
+// NOTE: https://sass-guidelin.es/#the-7-1-pattern
+
+// Sass tools, helper files, variables, functions, mixins and other config files
+@import 'abstracts/variables';
+
+// Boilerplate code for the project
+@import 'base/base';
+@import 'base/reset';
+
+// Individual Components
+@import 'components/file_list';
+@import 'components/card';
+@import 'components/comments';
+@import 'components/table';
+@import 'components/modal';
+@import 'components/geotoolkit';
+@import 'components/buttons';
